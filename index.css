@@ -82,10 +82,15 @@ nav a {
     text-align: center;
     color: #ffffff;
 }
+a:hover {
+    background-color:slategray;
+}
+
 .orange {
     background-color: #FF764E;
     margin-left: 10%;
 }
+
 .blue {
     background-color: #5ED3EB;
     margin: 0 15%;
@@ -163,12 +168,12 @@ span {
 }
 /* Image Section*/
 .image {
-    margin: 0;
-    padding: 0;
+    background-image: url(assets/footer_img.jpg);
+    background-position: top;
+    min-height: 55vh;
 }
 /*Footer styles*/
 footer {
     background-color: #F9E7DC;
-    margin: 0;
-    padding: 0;
+  margin: 0 auto;
 }
